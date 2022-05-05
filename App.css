@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+.Test__One{
+    text-align: center;
+    font-size: 64px;
+    background-color:  #4CAF50;
+    border-radius: 10px;
+    color: #009900;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.Buttons{
+    display: flex; 
+    margin-top: 10px;
+}
+button{
+   margin: 5px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 16px;
+    border-radius: 10px;
+}
+button:active{
+   transform: translateY(4px) 
+}
